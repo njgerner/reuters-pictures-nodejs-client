@@ -1,10 +1,10 @@
 {
   "name": "reuters-pictures-client",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "nodejs client to interact with the reuters picture api",
   "main": "index.js",
   "scripts": {
-    "test": "\"mocha ./test --recursive\""
+    "test": "mocha ./test --recursive"
   },
   "repository": {
     "type": "git",
@@ -29,6 +29,7 @@
     "request-promise": "^4.1.1"
   },
   "devDependencies": {
-    "chai": "^3.5.0"
+    "chai": "^3.5.0",
+    "mocha": "^3.1.2"
   }
 }
