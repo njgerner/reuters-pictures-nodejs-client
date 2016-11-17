@@ -39,7 +39,7 @@ Not notes yet.
 
 ## `GET /search?query=Text:Pandas`
 
-Returns an account object.
+Returns an image search.
 
 ### Example Request
 
@@ -59,7 +59,7 @@ ReutersPictures.search.text('Pandas')
 
 ## `GET /search?query=Keyword:Pandas OR Atlanta`
 
-Returns an account object.
+Returns an image search.
 
 ### Example Request
 
