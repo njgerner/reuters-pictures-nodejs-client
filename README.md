@@ -27,6 +27,18 @@ searchService.search({
 
 The username and password should be provided with your Reuters account.
 
+## Auth usage - if you need the api token for something else
+
+```JavaScript
+const reutersAuthService = require('reuters-pictures-client').getAuthService('username', 'password');
+
+reutersAuthService.getApiToken()
+.then(apiToken => console.log('Got the token! Do something'))
+.catch(err => console.log('Oh no, failed for some reason'))
+```
+
+The username and password should be provided with your Reuters account.
+
 ## ReutersPicturesSearchService.search(options) Documentation
 
 **Options**

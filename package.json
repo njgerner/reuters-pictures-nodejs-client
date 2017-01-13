@@ -1,6 +1,6 @@
 {
   "name": "reuters-pictures-client",
-  "version": "0.0.5",
+  "version": "1.0.0",
   "description": "nodejs client to interact with the reuters picture api",
   "main": "index.js",
   "scripts": {
