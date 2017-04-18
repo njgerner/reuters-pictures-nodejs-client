@@ -10,7 +10,7 @@ See [Reuters documentation](Reuters_Pictures_API.pdf) for full API details.  Thi
  
 #### Restrictions:
 
-1. Only GET requests are supported so URL length is limited to 260 characters per Reuters documentation.  If you provide too many options to the search API you'll therefore hit an error. In the future we may add support for the POST API to prevent this error pending user demand.
+1. Only GET requests are supported so URL length is limited to 280 characters per Reuters documentation.  If you provide too many options to the search API you'll therefore hit an error. In the future we may add support for the POST API to prevent this error pending user demand.
 2. Boolean logic in the query parameter is limited to individual fields e.g., keyword:Nelson AND Mandela
 
 ## Basic usage
